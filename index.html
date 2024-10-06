@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Airbnb Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="https://www.airbnb.co.in/india/stays" target="_blank">Places to stay</a></li>
+                <li><a href="https://www.nytimes.com/2020/05/04/travel/airbnb-online-experiences-virus.html" target="_blank">Experiences</a></li>
+                <li><a href="https://www.nytimes.com/2020/05/04/travel/airbnb-online-experiences-virus.html" target="_blank">Online Experiences</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Sign Up</button>
+                <button>Log In</button>
+            </div>
+        </nav>
+    </header>
+
+     <!-- Search Section -->
+    <section class="search-section">
+    <h1>Find your perfect stay</h1>
+    <div class="search-bar">
+      <input type="text" id="location" placeholder="Where are you going?">
+      <input type="date" id="checkin" placeholder="Check in">
+      <input type="date" id="checkout" placeholder="Check out">
+      <input type="number" id="guests" placeholder="Guests">
+      <button id="searchBtn">Search</button>
+    </div>
+    <div id="searchResult"></div> <!-- This will show search results -->
+    </section>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Not sure where to go? Perfect.</h1>
+            <button class="explore-button">I'm flexible</button>
+        </div>
+    </section>
+
+    <!-- Popular Listings -->
+    <section class="popular-listings">
+        <h2>Popular Destinations</h2>
+        <div class="cards-container">
+            <div class="card">
+                <img src="destination1.jpg" alt="Destination 1" height="230" width="185">
+                <h3>Paris, France</h3>
+                <p>Stays starting at $120/night</p>
+            </div>
+            <div class="card">
+                <img src="destination2.jpg" alt="Destination 2" height="230" width="185">
+                <h3>Tokyo, Japan</h3>
+                <p>Stays starting at $80/night</p>
+            </div>
+            <div class="card">
+                <img src="destination3.jpg" alt="Destination 3" height="230" width="185">
+                <h3>Sydney, Australia</h3>
+                <p>Stays starting at $150/night</p>
+            </div>
+            <div class="card">
+                <img src="destination4.jpg" alt="Destination 4" height="230" width="185">
+                <h3>Mumbai, India</h3>
+                <p>Stays starting at $100/night</p>
+            </div>
+            <div class="card">
+                <img src="destination5.jpg" alt="Destination 5" height="230" width="185">
+                <h3>London, England</h3>
+                <p>Stays starting at $200/night</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="https://news.airbnb.com/about-us/">About Airbnb</a></li>
+                    <li><a href="https://news.airbnb.com/contact/">Contact</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <p>© 2024 Airbnb, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

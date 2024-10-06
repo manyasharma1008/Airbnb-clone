@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #ff385c;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+search-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-bar input, .search-bar button {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+.explore-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff385c;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Popular Listings */
+.popular-listings {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.popular-listings h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: left;
+    width: 250px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.card p {
+    margin: 10px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer p {
+    color: #666;
+}
